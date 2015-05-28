@@ -1,0 +1,125 @@
+﻿body {
+    background-image: url('../assets/images/background.jpg');
+    background-size:cover;
+}
+
+/* styling for slides that are inactive */
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.0;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    -o-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+}
+
+    /* styling for slides that are active*/
+    .impress-enabled .step.active {
+        opacity: 1;
+    }
+
+
+/* styling for all slides */
+.slide {
+    display: block;
+    width: 700px;
+    height: 600px;
+    padding: 40px 60px;
+    background-color: #000000;
+    border: 9px solid #071549;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+}
+
+/* styling for slide paragraphs */
+.slide p {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        line-height: 30px;
+}
+   
+/* styling for slide links */
+.slide a, .slide a:visited {
+        color: #071549;
+        text-decoration: none;
+        background-color: #e94f3a;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #e94f3a;
+        
+    }
+
+.slide a:hover, .slide a:active {
+            background-color: #ce867d;
+        }
+
+/* styling for slide text area */
+.slide .slide-text {
+        height: 450px;
+    }
+
+/* styling for menu section of each slide */
+div.menu {
+    border-top: 2px solid #071549;
+    padding-top: 25px;
+    text-align: center;
+}
+
+/*Red car image position at the bottom right of the slides*/
+#redCar {
+    position:fixed;
+    bottom: 10px;
+    right: 60px;
+}
+
+/*Cop car positioned at the bottom left of the slides*/
+#copCar {
+    position:fixed;
+    bottom: 20px;
+    left: 60px;
+}
+
+/*Crash image position in the eighth slide */
+#crash {
+        position:fixed;
+        bottom: 200px;
+        left: 250px;
+        opacity:0.7;
+}
+
+
+/*Accident image position in the tenth slide */
+#accident {
+        position:fixed;
+        bottom: 180px;
+        left: 200px;
+        opacity:0.7;
+}
+
+/*Money image position in the twelvth slide */
+#money {
+        position:fixed;
+        bottom: 200px;
+        left: 300px;
+        opacity:0.7;
+}
+
+/*CorpArrest image position in the Thirteenth slide */
+#copArrest {
+        position:fixed;
+        bottom: 200px;
+        left: 300px;
+        opacity:0.7;
+}
+
+/*Ambulance image position in the fifteenth slide */
+#ambulance {
+        position:fixed;
+        bottom: 180px;
+        left: 200px;
+        opacity:0.7;
+}

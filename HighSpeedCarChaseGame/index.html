@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Source file: index.html
+    Author: Guashti Singh
+    Last Modified: May 27, 2015
+    Program Description: A Car Chase Driving Game designed with impress.js
+    Revision History: https://github.com/guashtiSingh/HighSpeedCarChaseGame -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title -->
+    <title> High Speed Car Chase Game</title>
+
+    <!-- CSS Section -->
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="impress">
+        <!--First(Intro) Slide-->
+        <div id="intro" class="step slide">
+            <div class="slide-text">
+                <p>
+                    You and your partner just robbed a bank. While you held
+                    the employees hostage, your partner rushed to get
+                    an escape car. After leaving the bank, one of the employees
+                    called the police. The police sped behind your car, urging you
+                    and your partner to pull over.
+                </p>
+                <br />
+                <p>
+                    As your parther dashed through traffic, the road split. Which
+                    way would you go to escape from the police?
+                </p>
+                <p> <a href="#bridges"> TURN RIGHT</a>   leading towards two bridges.</p>
+                <p> <a href="#tunnels"> TURN LEFT</a>    leading towards two tunnels.</p>
+            </div> <!-- End of slide-text-->
+        </div> <!-- End of Slide 1-->
+        <!--Second Slide-->
+        <div id="bridges" class="step slide" data-x="1200">
+            <div class="slide-text">
+                <p>
+                    Your partner made a right turn onto a narrow road which led towards two bridges.
+                    As your partner approaches the bridges, he couldn't decide which bridge to
+                    drive on to so he quickly asks you to choose.
+                </p>
+                <br />
+                <p> Which bridge did you decide to go on? </p>
+                <p> <a href="#bridge1"> BRIDGE 1 </a></p>
+                <p> <a href="#bridge2"> BRIDGE 2 </a></p>
+                <!--Images-->
+                <p id="redCar"> <img src="assets/images/redCar.png" alt="" width="200" height="100" /> </p>
+                <p id="copCar"><img src="assets/images/CopCar.png" alt="" width="150" height="100" /></p>
+            </div> <!-- End of slide-text-->
+            <div class="menu"> <a href="#intro">START OVER</a> </div>
+        </div> <!--End of Slide 2-->
+        <!--Third Slide-->
+        <div id="tunnels" class="step slide" data-x="2400">
+            <div class="slide-text">
+                <p>
+                    Your partner managed to make a left turn, luckily there was no traffic leading towards the
+                    tunnels. As he approached the tunnels, you decided to tell your partner which tunnel to driven into.
+                </p>
+                <br />
+                <p> Which tunnel did you tell him?</p>
+                <p> <a href="#tunnel1"> TUNNEL 1 </a>     which looked dark, windy and filled with water.</p>
+                <p> <a href="#tunnel2"> TUNNEL 2 </a>     which had a bright lights and cameras. </p>
+                <!--Images-->
+                <p id="redCar"> <img src="assets/images/redCar.png" alt="" width="200" height="100" /> </p>
+                <p id="copCar"><img src="assets/images/CopCar.png" alt="" width="150" height="100" /></p>
+            </div> <!-- End of slide-text-->
+            <div class="menu"> <a href="#intro">START OVER</a> </div>
+        </div> <!--End of Slide 3-->
+        <!--Forth Slide-->
+        <div id="bridge1" class="step slide" data-x="3600">
+            <div class="slide-text">
+                <p>
+                    The cops are following closely behind on Bridge 1. You and your partner need to find an escape route
+                    before the cops find a way to stop the car. As you race on the bridge you see there is
+                    another path you can choose to escape from the cops.
+                </p>
+                <br />
+                <p> Where would you go to get away from the cops?</p>
+                <p> <a href="#bridge1TurnRight"> TURN RIGHT </a></p>
+                <p> <a href="#bridge1TurnLeft"> TURN LEFT </a></p>
+                <!--Images-->
+                <p id="redCar"> <img src="assets/images/redCar.png" alt="" width="200" height="100" /> </p>
+                <p id="copCar"><img src="assets/images/CopCar.png" alt="" width="150" height="100" /></p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 4-->
+        <!--Fifth Slide-->
+        <div id="bridge2" class="step slide" data-x="4800">
+            <div class="slide-text">
+                <p>
+                    The cops managed to follow you onto Bridge 2. You began to worry if you made the right decision.
+                    You and your partner pondered upon whether to continue driving straight or to make a U-turn.
+                </p>
+                <br />
+                <p>
+                    You felt pressured and uncertain. Your partner quickly asked you make a decision.
+                    What did you decide?
+                </p>
+                <p> <a href="#bridge2DriveStraight"> DRIVE STRAIGHT </a></p>
+                <p> <a href="#bridge2UTurn"> U-Turn </a></p>
+                <!--Images-->
+                <p id="redCar"> <img src="assets/images/redCar.png" alt="" width="200" height="100" /> </p>
+                <p id="copCar"><img src="assets/images/CopCar.png" alt="" width="150" height="100" /></p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 5-->
+        <!--Sixth Slide-->
+        <div id="tunnel1" class="step slide" data-x="6000">
+            <div class="slide-text">
+                <p>
+                    You chose the dark, windy and wet Tunnel 1. As you sped though the tunnel your partner started to panic
+                    because the car began to sway and slide. The wind was blowing, pushing the car back. Your parther
+                    couldn't decide whether to continue driving or to stop the car.
+                </p>
+                <br />
+                <p> Which did you choose? </p>
+                <p> You forced your partner to drive straight then,  <a href="#tunnel1TurnRight"> TURN RIGHT </a></p>
+                <p> <a href="#tunnel1Stop"> STOP THE CAR </a></p>
+                <!--Images-->
+                <p id="redCar"> <img src="assets/images/redCar.png" alt="" width="200" height="100" /> </p>
+                <p id="copCar"><img src="assets/images/CopCar.png" alt="" width="150" height="100" /></p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 6-->
+        <!--Seventh Slide-->
+        <div id="tunnel2" class="step slide" data-x="7200">
+            <div class="slide-text">
+                <p>
+                    You chose the bright Tunnel 2 which was filled with cameras. Your partner drove faster through the tunnel.
+                    You hear the sound of sirens echoing through the tunnel. In the distance, you saw another tunnel with dim lights.
+                </p>
+                <br />
+                <p> Which direction did you decide to go? </p>
+                <p> <a href="#tunnel2TurnLeft"> TURN LEFT </a>     into the other tunnel.</p>
+                <p> <a href="#tunnel2DriveStraight"> DRIVE STRAIGHT </a></p>
+                <!--Images-->
+                <p id="redCar"> <img src="assets/images/redCar.png" alt="" width="200" height="100" /> </p>
+                <p id="copCar"><img src="assets/images/CopCar.png" alt="" width="150" height="100" /></p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 7-->
+        <!--Eighth Slide-->
+        <div id="bridge1TurnRight" class="step slide" data-y="1200">
+            <div class="slide-text">
+                <p>
+                    You chose to turn right. Not realizing that your partner would crash into
+                    a cop car. You tried to get out of the car to escape but it was too late. The cops
+                    surrounded the car. You and your partner got arrested.
+                </p>
+                <!-- Image -->
+                <p id="crash"><img src="assets/images/crash.png" alt="" width="200" height="200" /></p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 8-->
+        <!--Ninth Slide-->
+        <div id="bridge1TurnLeft" class="step slide" data-y="2400">
+            <div class="slide-text">
+                <p>
+                    You quickly told your partner to turn left because the cops were at the side of the car forcing your partner
+                    to the edge of the bridge. He lost control of the car and drove off of the bridge. The cop cars stopped
+                    at the edge of the bridge and watched as the car crashed into the water.
+                </p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 9-->
+        <!--Tenth Slide-->
+        <div id="bridge2DriveStraight" class="step slide" data-y="4800">
+            <div class="slide-text">
+                <p>
+                    An accident caused traffic on Bridge 2. Your partner diverted from some of the cars
+                    but had to stop because of the traffic. When the car stopped, you jumped out of the car
+                    and started to run though the traffic. There were cops waiting on the other side of the bridge.
+                    You and your partner got arrested.
+                </p>
+                <!--Image-->
+                <p id="accident"><img src="assets/images/accident.png" alt="" width="400" height="200" /></p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 10-->
+        <!--Eleventh Slide-->
+        <div id="bridge2UTurn" class="step slide" data-y="6000">
+            <div class="slide-text">
+                <p>
+                    Traffic caused your partner to make a sudden U-Turn, where he
+                    ended up crashing into another car. After the crash, the cops quickly approached,
+                    and surrounded the car. You and your partner got arrested.
+                </p>
+                <!--Image-->
+                <p id="accident"><img src="assets/images/accident.png" alt="" width="400" height="200" /></p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 11-->
+        <!--Twelvth Slide-->
+        <div id="tunnel1TurnRight" class="step slide" data-y="7200">
+            <div class="slide-text">
+                <p>
+                    You turned right into a hidden passageway, which made you and your partner safe
+                    from the cops. Your partner waited until the cops drove out of the windy tunnel
+                    and escaped.
+                    YOU WIN!
+                </p>
+            <!--Image-->
+                <p id="money"><img src="assets/images/money.jpeg" alt="" width="200" height="250" /></p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 12-->
+        <!--Thirteenth Slide-->
+        <div id="tunnel1Stop" class="step slide" data-y="8400">
+            <div class="slide-text">
+                <p>
+                    Burst of wind gusts made the car sway continuously. You and your partner
+                    decided to stop the car in the dark and wet tunnel. After you got out of the car.
+                    You and your partner got arrested by the cops, they had barriers and other cops guarding the exit
+                    to ensure there was no escape.
+                </p>
+                <!--Image-->
+                <p id="copArrest"> <img src="assets/images/copArrest.png" alt="" width="200" height="200" /> </p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 13-->
+        <!--Forteenth Slide-->
+        <div id="tunnel2TurnLeft" class="step slide" data-y="9600">
+            <div class="slide-text">
+                <p>
+                    When you turned left into the other tunnel your wheels got punctured. The car began to slide
+                    through the tunnel and eventually it came to a stop. The cops placed spikes on the road.
+                    When you came out of the car the cops were waiting in the tunnel for you and your friend.
+                    Both of you got arrested.
+                </p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 14-->
+        <!--Fifteenth Slide-->
+        <div id="tunnel2DriveStraight" class="step slide" data-y="10800">
+            <div class="slide-text">
+                <p>
+                    Your partner was driving really fast, you didn't realize that the tunnel was ending.
+                    The tunnel was incomplete and the car was driving towards a wall. Your partner couldn't stop the car
+                    in time and the car smashed into the tunnel wall, severely injuring you and your partner.
+                </p>
+                <!--Image-->
+                <p id="ambulance"> <img src="assets/images/ambulance.png" alt="" width="300" height="200" /></p>
+            </div> <!--End of slide-text-->
+            <div class="menu"> <a href="#intro"> START OVER </a></div>
+        </div> <!--End of Slide 15-->
+    </div>
+
+    <!--JavaScript Section-->
+    <script src="Scripts/lib/impress.js"></script>
+    <script>impress().init();</script>
+</body>
+</html>

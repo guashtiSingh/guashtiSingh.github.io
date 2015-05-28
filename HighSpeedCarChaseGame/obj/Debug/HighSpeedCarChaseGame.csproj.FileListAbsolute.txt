@@ -1,0 +1,6 @@
+c:\users\ashti_000\documents\visual studio 2013\Projects\HighSpeedCarChaseGame\HighSpeedCarChaseGame\bin\HighSpeedCarChaseGame.dll.config
+c:\users\ashti_000\documents\visual studio 2013\Projects\HighSpeedCarChaseGame\HighSpeedCarChaseGame\bin\HighSpeedCarChaseGame.dll
+c:\users\ashti_000\documents\visual studio 2013\Projects\HighSpeedCarChaseGame\HighSpeedCarChaseGame\bin\HighSpeedCarChaseGame.pdb
+c:\users\ashti_000\documents\visual studio 2013\Projects\HighSpeedCarChaseGame\HighSpeedCarChaseGame\obj\Debug\HighSpeedCarChaseGame.csprojResolveAssemblyReference.cache
+c:\users\ashti_000\documents\visual studio 2013\Projects\HighSpeedCarChaseGame\HighSpeedCarChaseGame\obj\Debug\HighSpeedCarChaseGame.dll
+c:\users\ashti_000\documents\visual studio 2013\Projects\HighSpeedCarChaseGame\HighSpeedCarChaseGame\obj\Debug\HighSpeedCarChaseGame.pdb
