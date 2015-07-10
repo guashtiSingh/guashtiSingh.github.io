@@ -1,6 +1,0 @@
-C:\Users\ashti_000\documents\visual studio 2013\Projects\COMP397MailPilot\COMP397MailPilot\bin\COMP397-Lesson02-Part2.dll.config
-C:\Users\ashti_000\documents\visual studio 2013\Projects\COMP397MailPilot\COMP397MailPilot\bin\COMP397-Lesson02-Part2.dll
-C:\Users\ashti_000\documents\visual studio 2013\Projects\COMP397MailPilot\COMP397MailPilot\bin\COMP397-Lesson02-Part2.pdb
-C:\Users\ashti_000\documents\visual studio 2013\Projects\COMP397MailPilot\COMP397MailPilot\obj\Debug\COMP397-Lesson02-Part2.dll
-C:\Users\ashti_000\documents\visual studio 2013\Projects\COMP397MailPilot\COMP397MailPilot\obj\Debug\COMP397-Lesson02-Part2.pdb
-C:\Users\ashti_000\Documents\Visual Studio 2013\Projects\COMP397MailPilot\COMP397MailPilot\obj\Debug\COMP397MailPilot.csprojResolveAssemblyReference.cache
